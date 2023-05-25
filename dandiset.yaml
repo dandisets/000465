@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000465
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -40,7 +41,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-03-24T01:50:09.368401+00:00'
-description: This dataset contains recordings from PtNRGrids, which are devices designed
+description: 'This dataset contains recordings from PtNRGrids, which are devices designed
   to record electrocorticography (ECoG) activities from the brain surface at high-spatial
   resolution. PtNRGrids used here were a square-shaped array with 1024 channels and
   a 150-µm pitch, which was implanted to record neural activity from the entire right
@@ -49,16 +50,31 @@ description: This dataset contains recordings from PtNRGrids, which are devices 
   individual whiskers on the contralateral side. This dataset demonstrates the high-spatial
   resolution recording capability of PtNRGrids isolate functional cortical columns
   in sub-mm resolution from the surface of the brain.
+
+
+  [Publication corresponding to this dataset] Tchoe, Youngbin, et al. "Human brain
+  mapping with multithousand-channel PtNRGrids resolves spatiotemporal dynamics."
+  Science translational medicine 14.628 (2022): eabj1441.
+
+  [Electrode mapping information & Basic analysis codes] Github: https://ytchoe.github.io/'
+ethicsApproval: []
 id: DANDI:000465/draft
 identifier: DANDI:000465
+keywords:
+- micro-ECoG, barrel cortex, high gamma activity
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000465/versions/draft/assets/
 name: Human brain mapping with multithousand-channel PtNRGrids resolves spatiotemporal
   dynamics
+protocol:
+- S16020
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000465/draft
 version: draft
+wasGeneratedBy: []

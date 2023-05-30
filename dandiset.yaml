@@ -31,7 +31,7 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
 citation: Tchoe, Youngbin (2023) Human brain mapping with multithousand-channel PtNRGrids
-  resolves spatiotemporal dynamics (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  resolves spatiotemporal dynamics (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000465/draft
 contributor:
 - affiliation: []
   email: ybtchoe@gmail.com
@@ -41,7 +41,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-03-24T01:50:09.368401+00:00'
-datePublished: '2023-05-30T18:57:21.353746+00:00'
+datePublished: '2023-05-30T23:49:47.503996+00:00'
 description: 'This dataset contains recordings from PtNRGrids, which are devices designed
   to record electrocorticography (ECoG) activities from the brain surface at high-spatial
   resolution. PtNRGrids used here were a square-shaped array with 1024 channels and
@@ -58,7 +58,6 @@ description: 'This dataset contains recordings from PtNRGrids, which are devices
   Science translational medicine 14.628 (2022): eabj1441.
 
   [Electrode mapping information & Basic analysis codes] Github: https://ytchoe.github.io/'
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000465/draft
 identifier: DANDI:000465
@@ -70,16 +69,15 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000465/versions/draft/assets/
 name: Human brain mapping with multithousand-channel PtNRGrids resolves spatiotemporal
   dynamics
-protocol:
-- S16020
+protocol: []
 publishedBy:
-  endDate: '2023-05-30T18:57:21.353746+00:00'
-  id: urn:uuid:3361f094-bc5c-4291-8564-b4a66ebf082d
+  endDate: '2023-05-30T23:49:47.503996+00:00'
+  id: urn:uuid:9d7498b5-0a49-44ce-8ad3-e8849bd61a37
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-05-30T18:57:21.353746+00:00'
+  startDate: '2023-05-30T23:49:47.503996+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:855ff5a4-8cf0-417e-90bd-38154e3ebfbb
+  - id: urn:uuid:3828bba8-a456-4a82-9430-c4245baff79c
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software

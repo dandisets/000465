@@ -19,8 +19,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 64843191531
-  numberOfFiles: 21
+  numberOfBytes: 86767673742
+  numberOfFiles: 26
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
@@ -31,7 +31,7 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
 citation: Tchoe, Youngbin (2023) Human brain mapping with multithousand-channel PtNRGrids
-  resolves spatiotemporal dynamics (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000465/draft
+  resolves spatiotemporal dynamics (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: ybtchoe@gmail.com
@@ -41,6 +41,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-03-24T01:50:09.368401+00:00'
+datePublished: '2023-05-30T16:57:15.706445+00:00'
 description: 'This dataset contains recordings from PtNRGrids, which are devices designed
   to record electrocorticography (ECoG) activities from the brain surface at high-spatial
   resolution. PtNRGrids used here were a square-shaped array with 1024 channels and
@@ -57,6 +58,7 @@ description: 'This dataset contains recordings from PtNRGrids, which are devices
   Science translational medicine 14.628 (2022): eabj1441.
 
   [Electrode mapping information & Basic analysis codes] Github: https://ytchoe.github.io/'
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000465/draft
 identifier: DANDI:000465
@@ -70,6 +72,18 @@ name: Human brain mapping with multithousand-channel PtNRGrids resolves spatiote
   dynamics
 protocol:
 - S16020
+publishedBy:
+  endDate: '2023-05-30T16:57:15.706445+00:00'
+  id: urn:uuid:1f5fdb96-51db-4aba-ba24-dd2f02155c1c
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-05-30T16:57:15.706445+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:37b52641-78bf-4548-9971-3ebb250905d2
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
